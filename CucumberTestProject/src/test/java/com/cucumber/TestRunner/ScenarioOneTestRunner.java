@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		//Features files - Gherkin language - User Stories
 		features={"src/test/resources/Features"},
 		//TestSuites
-		glue= {"com/cucumber/stepdef/"},
+		glue= {"com/cucumber/TestSuite/"},
 		//Reporting Structure
 		plugin={"pretty",
 				"html:test-output/cucumber-htmlreport",
