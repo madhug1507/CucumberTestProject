@@ -15,9 +15,9 @@ import cucumber.api.junit.Cucumber;
 		glue= {"com/cucumber/stepdef/"},
 		//Reporting Structure
 		plugin={"pretty",
-				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report.json",
-				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
+				"html:test-output/cucumber-htmlreport",
+				"json:test-output/cucumber-report.json",
+				"com.cucumber.listener.ExtentCucumberFormatter:test-output/ExtentReport.html"
 				}
 	
 		)
