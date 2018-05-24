@@ -1,4 +1,4 @@
-package com.cucumber.runner;
+package com.cucumber.TestRunner;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;

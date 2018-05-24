@@ -1,4 +1,4 @@
-package com.cucumber.objectRepository;
+package com.cucumber.ObjectRepository;
 
 import org.openqa.selenium.By;
 

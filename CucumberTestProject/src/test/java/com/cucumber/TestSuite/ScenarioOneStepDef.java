@@ -1,13 +1,14 @@
-package com.cucumber.stepdef;
+package com.cucumber.TestSuite;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.testng.asserts.*;
 
-import com.cucumber.commonFunctions.DriverCommon;
-import com.cucumber.objectRepository.ObjectRepository;
-import com.cucumber.utils.*;
+import com.cucumber.CommonFunctions.DriverCommon;
+import com.cucumber.ObjectRepository.ObjectRepository;
+import com.cucumber.Utils.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

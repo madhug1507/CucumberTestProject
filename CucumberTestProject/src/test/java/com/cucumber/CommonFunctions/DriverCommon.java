@@ -1,4 +1,4 @@
-package com.cucumber.commonFunctions;
+package com.cucumber.CommonFunctions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import com.cucumber.objectRepository.ObjectRepository;
-import com.cucumber.utils.DriverFactory;
+import com.cucumber.ObjectRepository.ObjectRepository;
+import com.cucumber.Utils.DriverFactory;
 
 public class DriverCommon {
 
