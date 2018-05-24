@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Smoke Testing(failed)">
+    <classes>
+      <class name="com.cucumber.runner.ScenarioOneTestRunner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.cucumber.runner.ScenarioOneTestRunner -->
+    </classes>
+  </test> <!-- Smoke Testing(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
