@@ -3,7 +3,7 @@
 <suite name="Suite1"> 
 	<test name="Smoke Testing" > 	
 		<classes> 
-			 <class name="com.cucumber.runner.ScenarioOneTestRunner" />
+			 <class name="com.cucumber.TestRunner.ScenarioOneTestRunner" />
 		</classes> 	
 	</test> 
 	
