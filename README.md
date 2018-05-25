@@ -21,7 +21,12 @@
 ![image](https://user-images.githubusercontent.com/13721528/40539868-0307fb06-600e-11e8-8acf-bbf9e52b60f4.png)
 
 
-# Extent Report - I explicitly failed one case - Screenshots can also be added, will implement if would like see that feature as well
+# Extent Report 
+
+![image](https://user-images.githubusercontent.com/13721528/40541515-f36f7a38-6013-11e8-9547-ff4654b0823d.png)
+
+# Extent Report failed case
+I explicitly failed one case - Screenshots can also be added, will implement if would like see that feature as well
 ![image](https://user-images.githubusercontent.com/13721528/40540253-5e123c2c-600f-11e8-93b7-8301d1d2f3e7.png)
 
 
