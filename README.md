@@ -43,3 +43,14 @@ Execution End
 
 ![image](https://user-images.githubusercontent.com/13721528/40545222-fe28f350-6022-11e8-8093-699a47dffe9a.png)
 
+# Workaround if html reports CSS does not display
+Manage Jenkins => Script console
+![image](https://user-images.githubusercontent.com/13721528/40546439-361d3664-6027-11e8-9875-895438537179.png)
+
+Enter => System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "") and Click Run then build the job again 
+![image](https://user-images.githubusercontent.com/13721528/40546568-82acbd7e-6027-11e8-8a8f-e0eb6862e5e7.png)
+
+# Jenkins Extent Report
+![image](https://user-images.githubusercontent.com/13721528/40546767-03b67342-6028-11e8-9e63-48d0ed0b8674.png)
+
+
