@@ -17,11 +17,12 @@
 
 ![jenkins_manageplugins_htmlpublisher_cucumberreport](https://user-images.githubusercontent.com/13721528/40539479-c83252f2-600c-11e8-9ffc-b92ce4953777.PNG)
 
+# JUnit Reporting
+![image](https://user-images.githubusercontent.com/13721528/40539868-0307fb06-600e-11e8-8acf-bbf9e52b60f4.png)
 
 
-
-
-
+#Extent Report - I explicitly failed one case
+![image](https://user-images.githubusercontent.com/13721528/40540253-5e123c2c-600f-11e8-93b7-8301d1d2f3e7.png)
 
 
 
