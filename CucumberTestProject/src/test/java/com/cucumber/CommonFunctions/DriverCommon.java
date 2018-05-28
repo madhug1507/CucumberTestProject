@@ -1,17 +1,26 @@
 package com.cucumber.CommonFunctions;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.cucumber.ObjectRepository.ObjectRepository;
 import com.cucumber.Utils.DriverFactory;
 
+
 public class DriverCommon {
 
 	public static WebDriver driver;
+	
+	//public static RemoteWebDriver driver;
 	
 	public void launchWeb(String URL) 
 	{
@@ -61,5 +70,9 @@ public class DriverCommon {
 			System.out.println(e.getMessage());
 		}
 	}
+	
+	public byte[] createAttachment() {
+	    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	} 
 	
 }

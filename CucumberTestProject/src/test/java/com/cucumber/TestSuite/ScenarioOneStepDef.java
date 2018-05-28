@@ -30,7 +30,8 @@ public class ScenarioOneStepDef extends DriverCommon{
 	@Before
 	public void setup() {
 		//initiating the ChromeDriver
-		driver = DriverFactory.getDriver("chrome");
+		//driver = DriverFactory.getRemoteDriver("chrome");
+		driver =  DriverFactory.getDriver("chrome");
 	}
 	
 	@After
@@ -56,6 +57,7 @@ public class ScenarioOneStepDef extends DriverCommon{
 		List<WebElement> bikeTitles = driver.findElements(ObjectRepository.bikeNames);
 		//Validating if the no of Bikes displayed are are matching with the grid count 
 		Assert.assertEquals(noOfBikes.size(),bikeTitles.size());
+		createAttachment();
 				
 	}
 	
@@ -74,6 +76,7 @@ public class ScenarioOneStepDef extends DriverCommon{
 			Assert.assertTrue(isElementDisplayed(ObjectRepository.bikeImages));
 			
 		}
+		createAttachment();
 	}
 	@When("^I filter by the class bikes should be able to sort into custom order$")
 	public void I_would_like_to_be_able_to_sort_the_bikes_into_a_custom_order_based_onclass() throws Exception {
@@ -122,7 +125,7 @@ public class ScenarioOneStepDef extends DriverCommon{
 		click(ObjectRepository.enduranceCheckbox);
 		click(ObjectRepository.comfortCheckbox);
 				
-	
+		createAttachment();
 	
 	}
 }
