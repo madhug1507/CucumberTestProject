@@ -18,6 +18,7 @@ public class DriverFactory {
 
 		//System.out.println(System.getProperty("user.dir")+"\\CucumberTestProject\\src\\test\\resources\\BrowserDrivers\\chromedriver.exe");
 		//Launches the browser based on the type provided
+		//commit code
 		if(browserType.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\BrowserDrivers\\geckodriver.exe");
 			return new FirefoxDriver();
