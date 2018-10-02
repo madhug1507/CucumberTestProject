@@ -1,4 +1,4 @@
-Feature: Verifying bikes based on filter
+Feature: Verifying bikes based on filter test merge understanding
 As a user, assuming I have access to a modern web browser (Chrome) with an internet connection and I am visiting the page
 
 Background: 
